@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    /* cursor: none; */
+}
+
+.cursor {
+    background-color: yellow;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.morty-cont {
+    position: relative;
+    width: 100%;
+}
+
+#anchor {
+    transform: rotateY(180deg);
+}
+
+#eyes {
+    /* width: 600px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 35px;
+    border: 2px solid green; */
+}
+
+.eye-small {
+    position: absolute;
+    z-index: 100;
+    /* top: 67%;
+    left: 25%; */
+    
+    /* width: 20px; */
+    width: 5%;
+    
+}
+
+.eye-big {
+    position: absolute;
+    z-index: 100;
+    
+    width: 7%;
+    
+}
+
+.small-1 {
+    top: 67%;
+    left: 65%;
+}
+
+.small-2 {
+    top: 65%;
+    left: 52%;
+}
+
+.big-1 {
+    top: 38.5%;
+    left: 33%;
+}
+
+.big-2 {
+    top: 38%;
+    left: 21%;
+}
