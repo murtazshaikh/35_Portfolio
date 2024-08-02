@@ -165,9 +165,9 @@ const Projects = () => {
               <FeaturedProject
                 title="Food Order Application"
                 img={foodOrderImg}
-                summary="A feature-rich Food Ordering Application using React, Context API. It shows detail 
-                regarding almost all the cryptocurrency. You can easily convert the price in your local currency. 
-                You can add dishes to cart and order you fav meal."
+                summary="An expense tracker project is a practical application designed to help users 
+                manage and track their daily expenses. Where the user can fill out the form and add expenses. 
+                Plus filtering out expenses by year."
                 link="https://food-order-application-six.vercel.app/"
                 type="React, Context API, Firebase"
                 github="https://github.com/murtazshaikh/31_Food_Order_Application"
@@ -211,7 +211,7 @@ const Projects = () => {
                 summary="Login and logout functionality for users. Display of account balance, 
                   summary of income and expenses, and detailed transaction history. Ability to 
                   transfer money between accounts, often including internal and external transfers. 
-                  Sorting transactions by date, amount, etc. And an automatic logout after 2 min from logging in."
+                  Sorting transactions by date, amount, etc. And an automatic logout after 2 minutes from logging in."
                 link="https://murtazshaikh.github.io/29_Bankist_App/"
                 type="Vanilla Javascript"
                 github="https://github.com/murtazshaikh/29_Bankist_App"
@@ -241,7 +241,7 @@ const Projects = () => {
                 img={eCommerceWebsite}
                 summary="Designed and developed a responsive e-commerce website using HTML 
                   and CSS, featuring a user-friendly interface, product listings, shopping 
-                  cart functionality, and secure checkout process. The project demonstrates 
+                  cart functionality, and a secure checkout process. The project demonstrates 
                   proficiency in front-end development and attention to detail in design."
                 link="https://e-commerce-website-zeta.vercel.app/"
                 type="HTML5, CSS3, Vanilla Javascript"

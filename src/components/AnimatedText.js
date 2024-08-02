@@ -75,7 +75,7 @@ const AnimatedText = ({ text, className = "" }) => {
     overflow-hidden sm:py-0"
     >
       <motion.div
-        className="cursor"
+        className="cursor md:hidden"
         variants={variants}
         animate={cursorVariant}
         transition={{ type: "spring", duration: 0.1 }}

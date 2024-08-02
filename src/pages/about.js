@@ -42,7 +42,7 @@ const about = () => {
           name="description"
           content="I'm Murtaza, a Full Stack Developer with over 2 years of
           experience in creating dynamic and responsive web applications.
-          I specialize in Next, React, Javascript, and Ruby on Rails, and
+          I specialize in Next, React, Javascript, Ruby on Rails, PostgreSQL and
           have a strong background in both frontend and backend
           development."
         />
@@ -52,7 +52,7 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
-            className="mb-16 lg:!text-7xl sm:text-6xl xs:text-4xl sm:mb-8"
+            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2  md:col-span-8">
@@ -62,9 +62,9 @@ const about = () => {
               <p className="font-medium">
                 Hi, I'm Murtaza, a Full Stack Developer with over 2 years of
                 experience in creating dynamic and responsive web applications.
-                I specialize in Next, React, Javascript, and Ruby on Rails, and
-                have a strong background in both frontend and backend
-                development.
+                I specialize in Next, React, Javascript, Ruby on Rails,
+                PostgreSQL, and have a strong background in both frontend and
+                backend development.
               </p>
               <p className="my-4 font-medium">
                 My main focus these days is building accessible user interfaces
@@ -82,8 +82,8 @@ const about = () => {
               </p>
               <p className="font-medium">
                 When I’m not at the computer, I’m usually rock climbing,
-                reading, hanging out with my friends, listening songs, or playing
-                musical instruments.
+                reading, hanging out with my friends, listening to songs, or
+                playing musical instruments.
               </p>
             </div>
             <div

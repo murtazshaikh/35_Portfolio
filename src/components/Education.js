@@ -67,9 +67,10 @@ const Education = () => {
             type="SSC"
             time="2015"
             place="N.S.V.V.H.S"
-            info="Completed SSC and gained academic knowledge but also develop a wide range of skills and values. 
-            The combination of academic learning, extracurricular activities, and social interactions helped in the 
-            overall development, prepared for future challenges and opportunities."
+            info="Completed SSC and gained academic knowledge but also developed a wide range 
+            of skills and values. The combination of academic learning, extracurricular activities, 
+            and social interactions helped in the overall development, preparing for future challenges 
+            and opportunities."
           />
         </ul>
       </div>
