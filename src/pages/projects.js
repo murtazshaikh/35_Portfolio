@@ -165,9 +165,9 @@ const Projects = () => {
               <FeaturedProject
                 title="Food Order Application"
                 img={foodOrderImg}
-                summary="An expense tracker project is a practical application designed to help users 
-                manage and track their daily expenses. Where the user can fill out the form and add expenses. 
-                Plus filtering out expenses by year."
+                summary="The Food Order Application is a web-based platform developed using React, 
+                leveraging the React Context API and Firebase. This application allows users to 
+                place orders, and manage their cart efficiently."
                 link="https://food-order-application-six.vercel.app/"
                 type="React, Context API, Firebase"
                 github="https://github.com/murtazshaikh/31_Food_Order_Application"
