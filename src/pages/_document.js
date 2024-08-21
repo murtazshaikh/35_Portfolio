@@ -10,6 +10,7 @@ export default function Document() {
           {`
           if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
+            
           } else {
             document.documentElement.classList.remove('dark')
           }
@@ -17,6 +18,12 @@ export default function Document() {
         </Script>
         <Main />
         <NextScript />
+
+        <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+        <script src="https://mediafiles.botpress.cloud/a17611d1-1d89-4897-a759-d85ed90d3a43/webchat/v2.1/config.js"></script>
+
+        {/* <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+        <script src="https://mediafiles.botpress.cloud/a17611d1-1d89-4897-a759-d85ed90d3a43/webchat/v2.1/config.js"></script> */}
       </body>
     </Html>
   );
