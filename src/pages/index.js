@@ -7,6 +7,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import TransitionEffect from "@/components/TransitionEffect";
+import Script from "next/script";
 
 export default function Home() {
   return (

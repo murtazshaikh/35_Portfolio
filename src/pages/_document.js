@@ -16,11 +16,27 @@ export default function Document() {
           }
           `}
         </Script>
+
         <Main />
         <NextScript />
 
-        {/* <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js" defer></script>
-        <script src="https://mediafiles.botpress.cloud/a17611d1-1d89-4897-a759-d85ed90d3a43/webchat/v2.1/config.js" defer></script> */}
+        <Script 
+          src="https://cdn.botpress.cloud/webchat/v2.1/inject.js" 
+          strategy="lazyOnload" 
+        />
+        <Script 
+          src="https://mediafiles.botpress.cloud/a17611d1-1d89-4897-a759-d85ed90d3a43/webchat/v2.1/config.js" 
+          strategy="lazyOnload" 
+        />
+
+        {/* <script
+          src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"
+          defer
+        ></script>
+        <script
+          src="https://mediafiles.botpress.cloud/a17611d1-1d89-4897-a759-d85ed90d3a43/webchat/v2.1/config.js"
+          defer
+        ></script> */}
 
         {/* <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
         <script src="https://mediafiles.botpress.cloud/a17611d1-1d89-4897-a759-d85ed90d3a43/webchat/v2.1/config.js"></script> */}
