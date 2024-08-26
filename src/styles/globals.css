@@ -17,6 +17,11 @@
     z-index: 100;
 }
 
+.custom-backdrop-blur {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
 .morty-cont {
     position: relative;
     width: 100%;

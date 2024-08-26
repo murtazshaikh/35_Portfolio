@@ -60,7 +60,7 @@ const AnimatedText = ({ text, className = "" }) => {
       width: 150,
       x: mousePosition.x - 75,
       y: mousePosition.y - 75,
-      backgroundColor: "yellow",
+      backgroundColor: "rgb(255, 234, 0)",
       mixBlendMode: "difference",
     },
   };

@@ -78,8 +78,6 @@ const NavBar = () => {
     });
   };
 
-
-
   useEffect(() => {
     const setTimeoutId = setTimeout(() => {
       fireConfetti();
@@ -164,7 +162,8 @@ const NavBar = () => {
           animate={{ scale: 1, opacity: 1 }}
           className="min-w-[70vw] flex flex-col justify-between z-30 items-center 
           fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-          bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
+          bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md 
+          md:bg-dark-900/70 dark:md:bg-light-900/70 py-32 custom-backdrop-blur"
         >
           <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink
