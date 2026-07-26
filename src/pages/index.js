@@ -37,18 +37,15 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Building For Web And Mobile."
+                text="Turning Vision Into Reality With Code And Design."
                 className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Hi, I&apos;m Murtaza, a{" "}
-                <strong className="font-bold">Senior Software Engineer</strong>{" "}
-                with over <strong className="font-bold">4</strong> years of
-                experience creating dynamic and responsive web and mobile
-                applications. I specialize in Next.js, React, React Native,
-                JavaScript, Node.js, Express, Ruby on Rails, and PostgreSQL,
-                with a strong background across frontend, backend, and mobile
-                app development.
+                As a skilled senior software engineer, I am dedicated to turning
+                ideas into innovative web and mobile applications. Explore my
+                latest
+                projects and articles, showcasing my expertise in Next.js and
+                web development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link

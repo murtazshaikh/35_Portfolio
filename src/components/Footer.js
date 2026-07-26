@@ -8,7 +8,10 @@ const Footer = () => {
       className="w-full border-t-2 border-solid border-dark font-medium text-lg 
     dark:text-light dark:border-light sm:text-base"
     >
-      <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
+      <Layout
+        className="py-4 flex items-center justify-between lg:flex-col
+        xl:py-4 lg:py-3 md:py-3 sm:py-2"
+      >
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div className="flex items-center lg:py-2">Made with ❤️ love</div>
       </Layout>

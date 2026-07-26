@@ -33,3 +33,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# chatbot knowledge-base source - contains a personal phone number,
+# and this repository is public. Remove this line only if you have
+# stripped the contact details you don't want indexed.
+botpress-knowledge-base.md
