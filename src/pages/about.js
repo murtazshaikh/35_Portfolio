@@ -40,7 +40,7 @@ const about = () => {
         <title>About | Portfolio</title>
         <meta
           name="description"
-          content="I'm Murtaza, a Full Stack Developer with over 4 years of
+          content="I'm Murtaza, a Senior Software Engineer with over 4 years of
           experience in creating dynamic and responsive web and mobile
           applications. I specialize in Next.js, React, React Native,
           JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL and have a
@@ -61,7 +61,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m Murtaza, a Full Stack Developer with over 4 years
+                Hi, I&apos;m Murtaza, a Senior Software Engineer with over 4 years
                 of experience in creating dynamic and responsive web and mobile
                 applications. I specialize in Next.js, React, React Native,
                 JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL, and

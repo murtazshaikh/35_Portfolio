@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio | Full Stack Developer</title>
+        <title>Portfolio | Senior Software Engineer</title>
         <meta
           name="description"
-          content="I'm Murtaza, a Full Stack Developer with over 4 years of
+          content="I'm Murtaza, a Senior Software Engineer with over 4 years of
           experience building web and mobile applications, well versed in the design,
           development & maintenance of reusable UI components."
         />
@@ -37,11 +37,11 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code And Design."
+                text="Building For Web And Mobile."
                 className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Hi, I&apos;m Murtaza, a Full Stack Developer with over 4 years
+                Hi, I&apos;m Murtaza, a Senior Software Engineer with over 4 years
                 of experience creating dynamic and responsive web and mobile
                 applications. I specialize in Next.js, React, React Native,
                 JavaScript, Node.js, Express, Ruby on Rails, and PostgreSQL,
