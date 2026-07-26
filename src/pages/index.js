@@ -16,8 +16,9 @@ export default function Home() {
         <title>Portfolio | Full Stack Developer</title>
         <meta
           name="description"
-          content="I'm Murtaza, a Full Stack Developer with over 2 years of
-          experience well versed in the design, development & maintenance of reusable UI components."
+          content="I'm Murtaza, a Full Stack Developer with over 4 years of
+          experience building web and mobile applications, well versed in the design,
+          development & maintenance of reusable UI components."
         />
       </Head>
       <TransitionEffect />

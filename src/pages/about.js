@@ -40,11 +40,11 @@ const about = () => {
         <title>About | Portfolio</title>
         <meta
           name="description"
-          content="I'm Murtaza, a Full Stack Developer with over 2 years of
-          experience in creating dynamic and responsive web applications.
-          I specialize in Next, React, Javascript, Ruby on Rails, PostgreSQL and
-          have a strong background in both frontend and backend
-          development."
+          content="I'm Murtaza, a Full Stack Developer with over 4 years of
+          experience in creating dynamic and responsive web and mobile
+          applications. I specialize in Next.js, React, JavaScript, Ruby on
+          Rails, PostgreSQL and have a strong background across frontend,
+          backend, and mobile app development."
         />
       </Head>
       <TransitionEffect />
@@ -60,11 +60,11 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Murtaza, a Full Stack Developer with over 2 years of
-                experience in creating dynamic and responsive web applications.
-                I specialize in Next, React, Javascript, Ruby on Rails,
-                PostgreSQL, and have a strong background in both frontend and
-                backend development.
+                Hi, I&apos;m Murtaza, a Full Stack Developer with over 4 years
+                of experience in creating dynamic and responsive web and mobile
+                applications. I specialize in Next.js, React, JavaScript, Ruby
+                on Rails, PostgreSQL, and have a strong background across
+                frontend, backend, and mobile app development.
               </p>
               <p className="my-4 font-medium">
                 My main focus these days is building accessible user interfaces
@@ -130,7 +130,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={2} />+
+                  <AnimatedNumber value={4} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
