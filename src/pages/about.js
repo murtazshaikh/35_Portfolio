@@ -43,8 +43,9 @@ const about = () => {
           content="I'm Murtaza, a Full Stack Developer with over 4 years of
           experience in creating dynamic and responsive web and mobile
           applications. I specialize in Next.js, React, React Native,
-          JavaScript, Ruby on Rails, PostgreSQL and have a strong background
-          across frontend, backend, and mobile app development."
+          JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL and have a
+          strong background across frontend, backend, and mobile app
+          development."
         />
       </Head>
       <TransitionEffect />
@@ -63,9 +64,9 @@ const about = () => {
                 Hi, I&apos;m Murtaza, a Full Stack Developer with over 4 years
                 of experience in creating dynamic and responsive web and mobile
                 applications. I specialize in Next.js, React, React Native,
-                JavaScript, Ruby on Rails, PostgreSQL, and have a strong
-                background across frontend, backend, and mobile app
-                development.
+                JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL, and
+                have a strong background across frontend, backend, and mobile
+                app development.
               </p>
               <p className="my-4 font-medium">
                 My main focus these days is building accessible user interfaces
