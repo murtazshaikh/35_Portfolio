@@ -72,10 +72,12 @@ const about = () => {
                 My main focus these days is building accessible user interfaces
                 for{" "}
                 <a
-                  href="https://www.eventible.com/"
+                  href="https://rootlex.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-primary hover:dark:text-primaryDark"
                 >
-                  <strong>Eventible</strong>
+                  <strong>Rootlex</strong>
                 </a>
                 . I most enjoy building software in the sweet spot where design
                 and engineering meet — things that look good but are also built
