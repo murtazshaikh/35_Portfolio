@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/developer-pic-2.jpg";
-import { useInView, useMotionValue, useSpring } from "framer-motion";
+import { useInView, useMotionValue, useSpring } from "motion/react";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -40,10 +40,11 @@ const about = () => {
         <title>About | Portfolio</title>
         <meta
           name="description"
-          content="I'm Murtaza, a Full Stack Developer with over 2 years of
-          experience in creating dynamic and responsive web applications.
-          I specialize in Next, React, Javascript, Ruby on Rails, PostgreSQL and
-          have a strong background in both frontend and backend
+          content="I'm Murtaza, a Senior Software Engineer with over 4 years of
+          experience in creating dynamic and responsive web and mobile
+          applications. I specialize in Next.js, React, React Native,
+          JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL and have a
+          strong background across frontend, backend, and mobile app
           development."
         />
       </Head>
@@ -60,20 +61,25 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Murtaza, a Full Stack Developer with over 2 years of
-                experience in creating dynamic and responsive web applications.
-                I specialize in Next, React, Javascript, Ruby on Rails,
-                PostgreSQL, and have a strong background in both frontend and
-                backend development.
+                Hi, I&apos;m Murtaza, a{" "}
+                <strong className="font-bold">Senior Software Engineer</strong>{" "}
+                with over <strong className="font-bold">4</strong> years of
+                experience in creating dynamic and responsive web and mobile
+                applications. I specialize in Next.js, React, React Native,
+                JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL, and
+                have a strong background across frontend, backend, and mobile
+                app development.
               </p>
               <p className="my-4 font-medium">
                 My main focus these days is building accessible user interfaces
                 for{" "}
                 <a
-                  href="https://www.eventible.com/"
+                  href="https://rootlex.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-primary hover:dark:text-primaryDark"
                 >
-                  <strong>Eventible</strong>
+                  <strong>Rootlex</strong>
                 </a>
                 . I most enjoy building software in the sweet spot where design
                 and engineering meet — things that look good but are also built
@@ -81,9 +87,9 @@ const about = () => {
                 collaboratively to contribute to the organisation`s success!
               </p>
               <p className="font-medium">
-                When I’m not at the computer, I’m usually rock climbing,
-                reading, hanging out with my friends, listening to songs, or
-                playing musical instruments.
+                When I’m not at the computer, I’m usually trekking, reading,
+                hanging out with my friends, listening to songs, or playing
+                musical instruments.
               </p>
             </div>
             <div
@@ -130,7 +136,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={2} />+
+                  <AnimatedNumber value={4} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75

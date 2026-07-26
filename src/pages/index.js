@@ -13,11 +13,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio | Full Stack Developer</title>
+        <title>Portfolio | Senior Software Engineer</title>
         <meta
           name="description"
-          content="I'm Murtaza, a Full Stack Developer with over 2 years of
-          experience well versed in the design, development & maintenance of reusable UI components."
+          content="I'm Murtaza, a Senior Software Engineer with over 4 years of
+          experience building web and mobile applications, well versed in the design,
+          development & maintenance of reusable UI components."
         />
       </Head>
       <TransitionEffect />
@@ -36,18 +37,22 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code And Design."
+                text="Building For Web And Mobile."
                 className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in Next.js and
-                web development.
+                Hi, I&apos;m Murtaza, a{" "}
+                <strong className="font-bold">Senior Software Engineer</strong>{" "}
+                with over <strong className="font-bold">4</strong> years of
+                experience creating dynamic and responsive web and mobile
+                applications. I specialize in Next.js, React, React Native,
+                JavaScript, Node.js, Express, Ruby on Rails, and PostgreSQL,
+                with a strong background across frontend, backend, and mobile
+                app development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/Murtaza_Resume.pdf"
+                  href="/murtaza-resume.pdf"
                   target="_blank"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                   hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
