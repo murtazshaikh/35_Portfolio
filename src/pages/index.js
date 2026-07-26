@@ -40,10 +40,11 @@ export default function Home() {
                 className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in Next.js and
-                web development.
+                Hi, I&apos;m Murtaza, a Full Stack Developer with over 4 years
+                of experience creating dynamic and responsive web and mobile
+                applications. I specialize in Next.js, React, JavaScript, Ruby
+                on Rails, and PostgreSQL, with a strong background across
+                frontend, backend, and mobile app development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
