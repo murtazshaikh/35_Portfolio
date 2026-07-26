@@ -48,6 +48,9 @@ const Skills = () => {
         <Skill name="GCP" x="28vw" y="-16vw" />
         <Skill name="Git" x="-33vw" y="-6vw" />
         <Skill name="Claude" x="-12vw" y="22vw" />
+        <Skill name="Node.js" x="-13vw" y="-22vw" />
+        <Skill name="Express" x="31vw" y="10vw" />
+        <Skill name="PostgreSQL" x="33vw" y="20vw" />
       </div>
     </>
   );
