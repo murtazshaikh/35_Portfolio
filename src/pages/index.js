@@ -41,8 +41,10 @@ export default function Home() {
                 className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                Hi, I&apos;m Murtaza, a Senior Software Engineer with over 4 years
-                of experience creating dynamic and responsive web and mobile
+                Hi, I&apos;m Murtaza, a{" "}
+                <strong className="font-bold">Senior Software Engineer</strong>{" "}
+                with over <strong className="font-bold">4</strong> years of
+                experience creating dynamic and responsive web and mobile
                 applications. I specialize in Next.js, React, React Native,
                 JavaScript, Node.js, Express, Ruby on Rails, and PostgreSQL,
                 with a strong background across frontend, backend, and mobile

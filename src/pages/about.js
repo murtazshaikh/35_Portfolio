@@ -61,8 +61,10 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m Murtaza, a Senior Software Engineer with over 4 years
-                of experience in creating dynamic and responsive web and mobile
+                Hi, I&apos;m Murtaza, a{" "}
+                <strong className="font-bold">Senior Software Engineer</strong>{" "}
+                with over <strong className="font-bold">4</strong> years of
+                experience in creating dynamic and responsive web and mobile
                 applications. I specialize in Next.js, React, React Native,
                 JavaScript, Node.js, Express, Ruby on Rails, PostgreSQL, and
                 have a strong background across frontend, backend, and mobile
