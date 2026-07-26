@@ -13,6 +13,12 @@ import Script from "next/script";
 const BOTPRESS_BOT_ID = "a17611d1-1d89-4897-a759-d85ed90d3a43";
 const BOTPRESS_CLIENT_ID = "fa4c5b11-875a-43c0-98d7-21c2903efef1";
 
+// Name, avatar and colour carried over from the v2.1 config so the bot keeps
+// its identity. The old theme.json could not be reused - it was a map of
+// v2.1's internal generated class names, which v3 does not understand.
+const BOTPRESS_BOT_NAME = "Candy";
+const BOTPRESS_COLOR = "#2F6EE5";
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-mont",
@@ -43,7 +49,15 @@ export default function App({ Component, pageProps }) {
           window.botpress?.init({
             botId: BOTPRESS_BOT_ID,
             clientId: BOTPRESS_CLIENT_ID,
-            configuration: { showPoweredBy: true },
+            configuration: {
+              botName: BOTPRESS_BOT_NAME,
+              // Absolute URL: a relative path would break if the widget ever
+              // renders inside an iframe, where it would resolve against
+              // Botpress's origin instead of this site's.
+              botAvatar: `${window.location.origin}/botpress-avatar.webp`,
+              color: BOTPRESS_COLOR,
+              showPoweredBy: true,
+            },
           });
         }}
       />
