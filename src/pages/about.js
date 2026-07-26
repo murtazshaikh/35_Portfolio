@@ -85,9 +85,9 @@ const about = () => {
                 collaboratively to contribute to the organisation`s success!
               </p>
               <p className="font-medium">
-                When I’m not at the computer, I’m usually rock climbing,
-                reading, hanging out with my friends, listening to songs, or
-                playing musical instruments.
+                When I’m not at the computer, I’m usually trekking, reading,
+                hanging out with my friends, listening to songs, or playing
+                musical instruments.
               </p>
             </div>
             <div

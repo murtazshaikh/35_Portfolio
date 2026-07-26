@@ -54,14 +54,26 @@ const Experience = () => {
         ></motion.div>
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Senior Software Engineer"
+            company="Rootlex"
+            companyLink="https://rootlex.com"
+            time="Sept 2025-Present"
+            address="Hyderabad"
+            work="Building and shipping web and mobile applications end to end, working across
+              React, React Native, and Node.js. Designing and integrating REST APIs, improving
+              application performance, and contributing to technical decisions on architecture
+              and tooling. Reviewing code and mentoring developers to keep quality consistent
+              as the team grows."
+          />
+          <Details
             position="Junior Full Stack Developer"
             company="Eventible"
             companyLink="https://www.eventible.com/"
-            time="2022-Present"
+            time="Sept 2022-Sept 2025"
             address="Pune"
-            work="Worked on a team responsible for developing new features for Eventible. 
-              Building and maintaining the system for submitting, authenticating, and displaying 
-              user reviews. Developing robust search and filtering options for users to find 
+            work="Worked on a team responsible for developing new features for Eventible.
+              Building and maintaining the system for submitting, authenticating, and displaying
+              user reviews. Developing robust search and filtering options for users to find
               relevant events quickly. Ensuring the website loads quickly and performs well under high traffic."
           />
         </ul>
