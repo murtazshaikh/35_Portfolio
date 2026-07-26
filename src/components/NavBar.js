@@ -5,7 +5,7 @@ import confetti from "canvas-confetti";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon } from "./Icons";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
 const CustomLink = ({ href, title, className = "" }) => {

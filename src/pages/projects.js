@@ -15,10 +15,10 @@ import eCommerceWebsite from "../../public/images/projects/e-commerce-website.pn
 import boxAnimationEffect from "../../public/images/projects/box-animation-effect.png";
 import modalWindow from "../../public/images/projects/modal-window.png";
 import Layout from "@/components/Layout";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const FramerImage = motion(Image);
+const FramerImage = motion.create(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
