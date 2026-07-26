@@ -17,7 +17,9 @@ const BOTPRESS_CLIENT_ID = "fa4c5b11-875a-43c0-98d7-21c2903efef1";
 // its identity. The old theme.json could not be reused - it was a map of
 // v2.1's internal generated class names, which v3 does not understand.
 const BOTPRESS_BOT_NAME = "Candy";
-const BOTPRESS_COLOR = "#2F6EE5";
+// #1b1b1b is the site's own `dark` colour from tailwind.config.js, so the
+// widget matches the portfolio rather than sitting next to a second black.
+const BOTPRESS_COLOR = "#1b1b1b";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
