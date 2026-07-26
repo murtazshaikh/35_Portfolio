@@ -42,7 +42,8 @@ export default function Home() {
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 As a skilled senior software engineer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
+                ideas into innovative web and mobile applications. Explore my
+                latest
                 projects and articles, showcasing my expertise in Next.js and
                 web development.
               </p>
